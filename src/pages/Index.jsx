@@ -12,7 +12,7 @@ const Index = () => {
   });
 
   function calculateTimeLeft() {
-    const difference = +new Date("2024-06-30T23:59:59") - +new Date();
+    const difference = +new Date("2024-06-21T23:59:59") - +new Date();
     let timeLeft = {};
 
     if (difference > 0) {
@@ -40,17 +40,13 @@ const Index = () => {
         <Text fontSize="xl">Only these things count:</Text>
         <Box>
           <Text fontSize="lg">1. Finding great people</Text>
-          <Text fontSize="lg">2. Giving them freedom to execute and well thoughtout feedback</Text>
+          <Text fontSize="lg">2. Giving them freedom to execute</Text>
+          <Text fontSize="lg">3. Give well thoughtout feedback</Text>
         </Box>
 
-        <Box>
-          <Heading as="h2" size="xl" mb={4}>
-            Countdown to June 30, 2024
-          </Heading>
-          <Text fontSize="4xl" fontWeight="bold">
-            {timeLeft.days} days {timeLeft.hours} hours {timeLeft.minutes} minutes {timeLeft.seconds} seconds
-          </Text>
-        </Box>
+        <Text fontSize="4xl" fontWeight="bold">
+          {timeLeft.days} days {timeLeft.hours} hours {timeLeft.minutes} minutes {timeLeft.seconds} seconds
+        </Text>
       </VStack>
     </Center>
   );
