@@ -42,7 +42,7 @@ const Index = () => {
           <Text fontSize="lg">1. Finding great people</Text>
           <Text fontSize="lg">2. Giving them freedom to execute and well thoughtout feedback</Text>
         </Box>
-        <Image src="https://images.unsplash.com/photo-1491975474562-1f4e30bc9468?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxpbnRlbnNlJTIwYnVzaW5lc3MlMjBtZWV0aW5nfGVufDB8fHx8MTcxMDM0MzYxMXww&ixlib=rb-4.0.3&q=80&w=1080" alt="Intense Business Meeting" borderRadius="md" boxShadow="md" />
+
         <Box>
           <Heading as="h2" size="xl" mb={4}>
             Countdown to June 30, 2024
